@@ -1,0 +1,476 @@
+body {
+
+    background-color:rgba(0, 0, 54, 1);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+.nav-bar-bullets{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 400px;
+    align-items: center;
+    width: 20%;
+    border-bottom: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    font: 50px;
+    line-height: 50px;
+    text-align: center;
+
+    color: rgb(0, 0, 24);
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .togg-logo{
+    height: 40px;
+  }
+
+  .login-button{
+    flex-basis: 150px;
+    display: flex;
+    background: #080531;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px; 
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+    color: #FFFFFF;
+}
+
+.login-button:hover{
+    background-color:  rgba(108, 102, 193, 0.5);
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
+    align-items: center;
+    gap: 50px;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    gap: 25px;
+}
+
+.container1{
+    
+    width: 100%;
+    height: 50%;
+    background: #00C2E6;
+    border-radius: 25px;
+    padding: 25px;
+
+}
+
+.banner-photo{
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+
+}
+
+.container1-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+    color: #080531;
+}
+
+.container1-title2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.container1-paragraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 25px;
+    border: 1px solid #005C8C;
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.form1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    border-radius: 25px;
+    padding: 25px;
+    border: 1px solid #005C8C;
+    background: rgba(0, 92, 140, 0.06);
+
+}
+
+.form1:hover{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.form2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    border-radius: 25px;
+    padding: 25px;
+    border: 1px solid #005C8C;
+    background: rgba(22, 122, 175, 0.06);
+    color: #FFFFFF;
+}
+
+.form2:hover{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.form-title{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-dropdown{
+    width: 90%;
+    height: 56px;
+    background: #080531;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #005C8C;
+
+}
+
+
+
+
+.name-input{
+    width: 90%;
+    height: 50px;
+    background: #080531;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #005C8C;
+}
+
+.email-input{
+    width: 90%;
+    height: 50px;
+    background: #080531;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #005C8C;
+}
+
+.send-input{
+    width: 90%;
+    height: 56px;
+    background: #00C1E6;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.send-input:hover{
+    background-color: rgba(108, 102, 193, 0.5);
+}
+
+.form2-textarea{
+    width: 90%;
+    max-width: 90%;
+    min-width: 50%;
+    height: 150px;
+    max-height: 150px;
+    min-height: 120px;
+    border: 1px solid #005C8C;
+    background-color: #080531;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 36px;
+    color: #ffffff;
+
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+
+    background: url(images/togg-car-image.webp);
+    border-radius: 25px;
+    padding-left:25px;
+    padding-right:25px;
+
+    
+}
+
+.right-container-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 45px;
+}
+
+.right-container-bullets{
+    list-style-type: none;
+    width: 80%;
+    border-bottom: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    font: 100px;
+    line-height: 80px;
+    text-align: center;
+
+    color: rgb(255, 255, 255);
+    padding: 30px 0px;
+  }
+
+
+
+@media (max-width: 950px) {
+
+    body{
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    header{
+        display: flex;
+        gap: 20px;
+        order: 0;
+        position: fixed;
+        height: 10%;
+    }
+
+    .nav-bar-bullets{
+        display: none;
+       }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+        width: 100%;
+        height: 80%;
+        gap: 20px;
+        margin-top: 140px;
+
+    }
+
+    .container1-paragraph{
+        font-size: 20px;
+    }
+
+    .right-container{
+        order: 0;
+        width: 80%;
+        margin-top: 10px;
+    }
+
+
+    .right-container-title{
+        font-size: 50px;
+    }
+
+    .left-container{
+        order: 1;
+        width: 80%;
+        gap: 20px;
+    }
+
+    .container1{
+       
+        width: 100%;
+        height: 50%;
+        background: #00C2E6;
+        border-radius: 25px;
+        padding: 25px;
+    
+    }
+
+    .form1{
+        display: flex;
+        gap: 10px;
+        height: 90%;
+    }
+
+    .form2{
+        display: flex;
+        gap: 10px;
+        height: 90%;
+
+    }
+
+    hr{
+        display: flex;
+        order: 2;
+        width: 100%;
+        margin: 50px;
+    }
+
+    footer{
+        display: flex;
+        order: 3;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-photo{
+        width: 80%;
+        min-width: 250px;
+    }
+
+    .container1-title{
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .container2{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form1{
+        display: flex;
+        gap: 10px;
+        order: 0;
+        width: 90%;
+
+    }
+
+    .form2{
+        display: flex;
+        gap: 10px;
+        order: 1;
+        width: 90%;
+    }
+    .right-container-bullets{
+  
+        font-size: 15px;
+       
+      }
+    
+}
